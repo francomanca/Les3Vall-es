@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>3 Vallées Ski Trip · 2027 — Group Itinerary</title>
+<meta name="description" content="Group ski week in the 3 Vallées (600 km) with Travelex.si — accommodation comparison, flight logistics, discounts and an interactive price estimator." />
+<style>
+  :root {
+    --bg: #0e1116;
+    --bg-elev: #161b22;
+    --bg-card: #171d26;
+    --stroke: #232a35;
+    --stroke-soft: #1c232d;
+    --text: #e6edf3;
+    --text-2: #aeb9c6;
+    --text-3: #7d8898;
+    --accent: #4c8dff;
+    --accent-soft: #1c2c47;
+    --green: #3fb950;
+    --green-soft: #12261a;
+    --amber: #d29922;
+    --amber-soft: #2a2312;
+    --red: #f85149;
+    --red-soft: #2a1516;
+    --radius: 12px;
+    --maxw: 1080px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 30px; margin: 0; letter-spacing: -0.02em; }
+  h2 { font-size: 20px; margin: 40px 0 6px; letter-spacing: -0.01em; }
+  h3 { font-size: 15px; margin: 0 0 4px; color: var(--text); }
+  p { margin: 6px 0; color: var(--text-2); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .muted { color: var(--text-3); font-size: 13px; }
+  .lead { color: var(--text-2); font-size: 15px; max-width: 78ch; }
+  .divider { height: 1px; background: var(--stroke); border: 0; margin: 14px 0 0; }
+
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .grid { display: grid; gap: 14px; }
+  .g2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .g3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .g4 { grid-template-columns: repeat(4, minmax(0,1fr)); }
+  @media (max-width: 820px){ .g4{grid-template-columns:repeat(2,1fr);} .g3,.g2{grid-template-columns:1fr;} }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px;
+    background: var(--accent-soft); color: #cfe0ff; border: 1px solid #26436f;
+  }
+  .pill {
+    display:inline-flex; align-items:center; justify-content:center;
+    font-size:13px; font-weight:600; padding:5px 12px; border-radius:999px;
+    background: transparent; color: var(--text-2); border:1px solid var(--stroke);
+    cursor:pointer; user-select:none; transition: all .12s ease;
+  }
+  .pill:hover { border-color:#33404f; color: var(--text); }
+  .pill.active { background: var(--accent); color:#fff; border-color: var(--accent); }
+  .tag { font-size:11px; font-weight:600; padding:2px 8px; border-radius:999px; border:1px solid var(--stroke); color:var(--text-3); }
+  .tag.together { background: var(--accent-soft); color:#cfe0ff; border-color:#26436f; }
+  .tag.cheap { background: var(--green-soft); color:#7ee787; border-color:#1f4429; }
+
+  .stat { background: var(--bg-elev); border:1px solid var(--stroke); border-radius: var(--radius); padding:14px 16px; }
+  .stat .v { font-size: 22px; font-weight: 700; letter-spacing:-0.01em; }
+  .stat .v.green { color: var(--green); }
+  .stat .v.blue { color: var(--accent); }
+  .stat .l { font-size:12px; color: var(--text-3); margin-top:2px; }
+
+  .card { background: var(--bg-card); border:1px solid var(--stroke); border-radius: var(--radius); overflow:hidden; }
+  .card .hd { display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:11px 14px; border-bottom:1px solid var(--stroke); font-size:13px; font-weight:600; color:var(--text); background:var(--bg-elev); }
+  .card .hd .sub { font-weight:500; color: var(--text-3); font-size:12px; }
+  .card .bd { padding:14px; }
+  .card .bd.flush { padding:0; }
+  .card ul { margin:6px 0 0; padding-left:0; list-style:none; }
+  .card li { font-size:13px; color:var(--text-2); margin:5px 0; padding-left:14px; position:relative; }
+  .card li::before { content:"•"; position:absolute; left:0; color:var(--text-3); }
+
+  .callout { border-radius: var(--radius); padding:12px 14px; border:1px solid var(--stroke); background:var(--bg-elev); font-size:13.5px; color:var(--text-2); }
+  .callout .ct { font-weight:700; color:var(--text); margin-bottom:3px; }
+  .callout.info { border-color:#26436f; background: var(--accent-soft); }
+  .callout.warn { border-color:#5c4a12; background: var(--amber-soft); }
+  .callout.neutral { }
+
+  table { width:100%; border-collapse: collapse; font-size:13px; }
+  th, td { text-align:left; padding:9px 12px; border-bottom:1px solid var(--stroke-soft); vertical-align:top; }
+  th { color: var(--text-3); font-weight:600; font-size:12px; white-space:nowrap; }
+  tbody tr:last-child td { border-bottom:0; }
+  td.num, th.num { text-align:right; white-space:nowrap; font-variant-numeric: tabular-nums; }
+  tr.best td { background: rgba(63,185,80,0.06); }
+  .tbl-frame { border:1px solid var(--stroke); border-radius: var(--radius); overflow:auto; }
+  .cmp td:first-child { color: var(--text-3); font-weight:600; white-space:nowrap; }
+  .cmp tbody tr:nth-child(even) td { background: rgba(255,255,255,0.015); }
+
+  .strike { color: var(--text-3); text-decoration: line-through; }
+  .footer { margin-top:36px; color:var(--text-3); font-size:12px; }
+  .anchor { display:block; position:relative; top:-8px; visibility:hidden; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HEADER -->
+  <div class="row" style="gap:12px;">
+    <h1>3 Vallées Ski Trip · 2027</h1>
+    <span class="badge">By plane</span>
+  </div>
+  <p class="lead" style="margin-top:8px;">
+    Group ski week in the world's largest linked ski area (600 km of pistes) with
+    <strong>Travelex.si</strong>. Fly Budapest → Torino, transfer to the 3 Vallées. Choosing between three residences,
+    two flight weeks, and a 6–14-person room setup.
+  </p>
+  <hr class="divider" />
+
+  <!-- SUMMARY -->
+  <div class="grid g4" style="margin-top:18px;">
+    <div class="stat"><div class="v">600 km</div><div class="l">Pistes (all three valleys)</div></div>
+    <div class="stat"><div class="v green">Mar 13–20</div><div class="l">Recommended week</div></div>
+    <div class="stat"><div class="v blue">Les Balcons ★★★★</div><div class="l">Recommended residence</div></div>
+    <div class="stat"><div class="v">≈ €997/pp</div><div class="l">All-in, 12p, incl. flight</div></div>
+  </div>
+
+  <!-- LOGISTICS -->
+  <h2>Flight &amp; transfer logistics</h2>
+  <div class="callout warn" style="margin-top:8px;">
+    <div class="ct">Is the flight included in the € price? — No.</div>
+    The Travelex € package covers the ski pass, 7 nights, the airport transfer and luggage transport. You buy the
+    WizzAir Budapest–Torino ticket yourself (base fare + small cabin bag only). Travelex ships your suitcase and ski gear
+    from Budapest, so you don't check bags. Round-trip fare per person: <strong>48 480 Ft</strong> (Jan 30) /
+    <strong>28 980 Ft</strong> (Mar 13).
+  </div>
+  <div class="grid g2" style="margin-top:14px;">
+    <div class="card">
+      <div class="hd">Outbound · Saturday <span class="sub">WizzAir W6 2349</span></div>
+      <div class="bd">
+        <p style="margin:0;color:var(--text);">Budapest 14:10 → Torino 16:05</p>
+        <p class="muted" style="margin-top:6px;">Transfer bus airport → 3 Vallées ≈ 4 hours.</p>
+        <p class="muted">Drop luggage + ski gear Friday 21:00–22:00 at the Planetárium (Budapest).</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="hd">Return · Saturday <span class="sub">WizzAir W6 2350</span></div>
+      <div class="bd">
+        <p style="margin:0;color:var(--text);">Torino 16:40 → Budapest 18:25</p>
+        <p class="muted" style="margin-top:6px;">Bus leaves the resort 09:30 for the airport.</p>
+        <p class="muted">Collect luggage Sunday 10:00–11:00 at the Planetárium.</p>
+      </div>
+    </div>
+  </div>
+  <div class="callout info" style="margin-top:14px;">
+    <div class="ct">Only two flight weeks reach the 3 Vallées</div>
+    By plane, Travelex only serves the 3 Vallées on <strong>Jan 30 – Feb 6</strong> and <strong>Mar 13 – 20</strong>.
+    All other Torino weeks go to other resorts, so these are your only two options.
+  </div>
+
+  <!-- DISCOUNTS -->
+  <h2>Discounts to claim</h2>
+  <div class="grid g3" style="margin-top:8px;">
+    <div class="card">
+      <div class="hd">Early-booking discount <span class="tag">Time-sensitive</span></div>
+      <div class="bd">
+        <p style="margin:0;">Already baked into the € prices shown — but only until the deadline, then a significant increase.</p>
+        <ul>
+          <li>Balcons &amp; Cheval Blanc: valid to <strong>Jul 14</strong> (essentially now — lock in ASAP).</li>
+          <li>Les Clarines: valid to <strong>Oct 30</strong> (more breathing room).</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="hd">Returning-customer <span class="tag">Most of us</span></div>
+      <div class="bd">
+        <p style="margin:0;">Per person, for previous trips with Travelex:</p>
+        <ul>
+          <li>2 trips → €10 &nbsp;·&nbsp; 3 trips → €15</li>
+          <li>4+ trips (5th+) → <strong>€20</strong> — applied for most of the group.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="hd">Group-organiser perks</div>
+      <div class="bd">
+        <p style="margin:0;">Travelex lists 3-Völgy · Cheval Blanc &amp; Le Coeur des Loges as featured group deals.</p>
+        <ul>
+          <li>A full bus (25–30+) can earn extra discounts or free skiing — worth asking if the group grows.</li>
+          <li>Everyone pays individually under your group name.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="callout" style="margin-top:14px;">
+    <div class="ct">Add €45/person for the full 600 km</div>
+    The package pass only covers the local sector (Val Thorens or Les Menuires). To ski all three valleys the whole week,
+    add the <strong>3-Vallées extension = €45/person</strong>. This is built into every all-in figure below.
+  </div>
+
+  <!-- COMPARISON -->
+  <h2>Accommodation comparison</h2>
+  <p class="muted" style="margin-top:2px;">
+    Location, nightlife, dining, amenities and ski-access efficiency. Note: Travelex lists Les Clarines as 5★; CGH
+    markets it as a premium 4★ residence.
+  </p>
+  <div class="tbl-frame" style="margin-top:8px;">
+    <table class="cmp">
+      <thead><tr>
+        <th>Feature</th><th>Les Balcons ★★★★</th><th>Cheval Blanc ★★★</th><th>CGH Les Clarines ★★★★★</th>
+      </tr></thead>
+      <tbody id="cmp-body"></tbody>
+    </table>
+  </div>
+  <div class="grid g2" style="margin-top:14px;">
+    <div class="card">
+      <div class="hd">Wellness spotlight — CGH Les Clarines <span class="tag together">Possible priority</span></div>
+      <div class="bd">
+        <p style="margin:0;">If a proper post-ski wellness centre is a priority, Clarines is the strongest of the three — the CGH spa is a destination in itself.</p>
+        <ul>
+          <li>Heated indoor pool, jacuzzi/hot tub, sauna &amp; hammam, fitness room, billiards.</li>
+          <li>Extra-cost massages &amp; facials on site — book a group slot mid-week.</li>
+          <li>Spacious modern Savoyard wood apartments; linens &amp; towels included; bakery to the door.</li>
+        </ul>
+        <p class="muted" style="margin-top:6px;">Watch-outs: spa booked at reception (limited hours); WiFi can be weak. Sits at 1 850 m, quiet evenings.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="hd">Nightlife spotlight — La Folie Douce <span class="tag">Val Thorens</span></div>
+      <div class="bd">
+        <p style="margin:0;">Val Thorens hosts <strong>La Folie Douce</strong>, the legendary on-mountain après party — live DJs, cabaret and dancing in ski boots from early afternoon.</p>
+        <ul>
+          <li>On the slopes above the resort, so it favours <strong>Les Balcons</strong> &amp; <strong>Cheval Blanc</strong> — easy roll home after.</li>
+          <li>VT also has the wider late-night bar/club scene; Cheval Blanc is right in the thick of it.</li>
+        </ul>
+        <p class="muted" style="margin-top:6px;">From Les Menuires (Clarines) it's a daytime ski-over, not a walk-home option at night.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ESTIMATOR -->
+  <h2>Price estimator — 6 to 14 people, by plane</h2>
+  <p class="muted" style="margin-top:2px;">
+    Every valid room combination that exactly fits the group is listed per residence — e.g. 8 people can be one
+    8-person apartment or two 4-person apartments. Only the bigger/pricier variant of each capacity is used (cheaper
+    same-size variants excluded).
+  </p>
+  <div class="row" style="margin-top:12px; justify-content:space-between;">
+    <div class="row">
+      <span class="muted">Group size</span>
+      <div class="row" id="size-pills" style="gap:6px;"></div>
+    </div>
+    <div class="row">
+      <span class="muted">Week</span>
+      <div class="row" id="date-pills" style="gap:6px;"></div>
+    </div>
+  </div>
+  <p class="muted" id="week-meta" style="margin-top:8px;"></p>
+  <div id="estimator" class="grid" style="margin-top:6px;"></div>
+  <p class="muted" style="margin-top:12px;">
+    All-in/pp = package + €45 3-Vallées extension − €20 loyalty + flight (≈400 Ft/€). Combos sorted fewest-rooms first;
+    the cheapest is tagged. Bigger/pricier variant kept where a capacity has two (Gigantic&gt;Terjedelmes, Óriási&gt;Tágas,
+    Premium&gt;standard). Where the bigger variant is sold out (e.g. Balcons 10p in March), the next available one is used.
+  </p>
+  <div class="callout warn" id="jan-warn" style="margin-top:8px; display:none;">
+    On Jan 30, Les Clarines is fully sold out, the Balcons 4p and 12p apartments are gone, and the flight is
+    <strong>19 500 Ft</strong> more expensive per person than March.
+  </div>
+
+  <!-- RECOMMENDATION -->
+  <h2>Final recommendation</h2>
+  <div class="card" style="margin-top:8px;">
+    <div class="hd">Les Balcons de Val Thorens ★★★★ · Mar 13–20 · one 12-person apartment <span class="badge">Book this</span></div>
+    <div class="bd">
+      <div class="grid g4">
+        <div class="stat"><div class="v">€900</div><div class="l">Package €/person</div></div>
+        <div class="stat"><div class="v green">€997</div><div class="l">All-in €/pp (incl. flight)</div></div>
+        <div class="stat"><div class="v">€11,100</div><div class="l">Group €: pkg+3V−loyalty</div></div>
+        <div class="stat"><div class="v">347,760 Ft</div><div class="l">Group flights (WizzAir)</div></div>
+      </div>
+      <hr class="divider" style="margin:14px 0;" />
+      <h3>Why this one</h3>
+      <ul style="list-style:none;padding:0;margin:0;">
+        <li style="font-size:13.5px;color:var(--text-2);margin:6px 0;">• <strong>One apartment for the whole group</strong> (120 m², 12 people) — only Balcons offers true 8/10/12-person single units. Cheval Blanc maxes at 6p and Clarines' 8p is sold out, so both split you across separate flats. (Prefer to save? A Balcons 2× Óriási 6p split runs ≈ €942/pp — see the "Cheapest" tag.)</li>
+        <li style="font-size:13.5px;color:var(--text-2);margin:6px 0;">• <strong>Highest resort (2 300 m)</strong> — snow-sure even for a mid-March week.</li>
+        <li style="font-size:13.5px;color:var(--text-2);margin:6px 0;">• <strong>Ski-in/ski-out + spa + nightlife</strong> — pool/saunas/hot tubs on site, Intersport &amp; supermarket in the building, Val Thorens après on the doorstep.</li>
+        <li style="font-size:13.5px;color:var(--text-2);margin:6px 0;">• <strong>March beats January</strong> — cheaper flight (19 500 Ft less/pp), cheaper rooms, and Jan 30 has the 12-person unit + all of Clarines sold out anyway.</li>
+      </ul>
+      <div class="callout" style="margin-top:14px;">
+        <div class="ct">If wellness is the group's priority</div>
+        Switch to <strong>CGH Les Clarines ★★★★★ (Mar 13–20)</strong> — a 6+6 setup at ≈ €907/pp all-in. Best spa of the
+        three (indoor pool, jacuzzi, sauna, hammam, gym + massage/facials) and calm evenings — trade-off is two
+        apartments, 1 850 m, and no walk-home nightlife like La Folie Douce. Cheval Blanc ★★★ is the budget/party pick at
+        ≈ €877/pp, but small dated rooms split 6+6.
+      </div>
+      <h3 style="margin-top:16px;">Open decisions to confirm with the group</h3>
+      <ul style="list-style:none;padding:0;margin:0;">
+        <li style="font-size:13.5px;color:var(--text-2);margin:5px 0;">1. Final headcount (6 to 14) — use the estimator toggles above.</li>
+        <li style="font-size:13.5px;color:var(--text-2);margin:5px 0;">2. Vibe: nightlife &amp; La Folie Douce (Balcons/Cheval) vs. wellness &amp; quiet (Clarines).</li>
+        <li style="font-size:13.5px;color:var(--text-2);margin:5px 0;">3. Book fast — early-booking prices for Balcons/Cheval lapse Jul 14; buy WizzAir seats only after you get the Travelex voucher.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    Prices from travelex.si (3-Völgy accommodation &amp; flight pages, plane view). Package € prices already include the
+    early-booking discount, the local 6-day ski pass, 7 nights, airport transfer and luggage transport — flight and the
+    €45 3-Vallées extension are separate. Flight fares are WizzAir dynamic pricing and will rise. Review data:
+    Booking.com, Tripadvisor, hotel listings (July 2026). Currency ≈ 400 Ft/€.
+    <br/><br/>Not an official quote — confirm final prices and availability with Travelex before booking.
+  </div>
+</div>
+
+<script>
+  const HUF_PER_EUR = 400, THREE_VALLEY_EXT = 45, LOYALTY_MAX = 20;
+  const DATES = {
+    jan: { label:"Jan 30 – Feb 6", range:"2027.01.30–02.06", flightHuf:48480, season:"Peak winter" },
+    mar: { label:"Mar 13 – 20", range:"2027.03.13–03.20", flightHuf:28980, season:"Late season / spring sun" },
+  };
+  const INVENTORY = {
+    balcons: {
+      jan: {6:{label:"Óriási 6p (52 m²)",pp:895},8:{label:"Gigantic 8p (72 m²)",pp:915},10:{label:"Colossal 10p (110 m²)",pp:965},14:{label:"14p (150 m²)",pp:950}},
+      mar: {6:{label:"Óriási 6p (52 m²)",pp:845},8:{label:"Gigantic 8p (72 m²)",pp:865},10:{label:"Huge 10p (95 m²)",pp:880},12:{label:"12p (120 m²)",pp:900},14:{label:"14p (150 m²)",pp:900}},
+    },
+    cheval: {
+      jan: {4:{label:"Premium 4p (27 m²)",pp:875},6:{label:"Premium 6p (33 m²)",pp:815}},
+      mar: {4:{label:"Premium 4p (27 m²)",pp:845},6:{label:"Premium 6p (33 m²)",pp:780}},
+    },
+    clarines: {
+      jan: {},
+      mar: {4:{label:"4p (35–40 m²)",pp:840},6:{label:"Óriási 6p (45–60 m²)",pp:810}},
+    },
+  };
+  const ACCOMS = {
+    balcons:{name:"Les Balcons de Val Thorens",stars:"★★★★",resort:"Val Thorens · 2 300 m"},
+    cheval:{name:"Cheval Blanc",stars:"★★★",resort:"Val Thorens · 2 300 m"},
+    clarines:{name:"CGH Les Clarines",stars:"★★★★★",resort:"Les Menuires · 1 850 m"},
+  };
+  const ORDER = ["balcons","cheval","clarines"];
+  const SIZES = [6,8,10,12,14];
+
+  const COMPARISON = [
+    ["Resort & altitude","Val Thorens · 2 300 m","Val Thorens · 2 300 m","Les Menuires · 1 850 m"],
+    ["Guest reviews","Very good — spa & value praised","7.2/10 — location loved, rooms dated","4.1/5 (~8.4/10) — location 9.6"],
+    ["Ski access","Ski-out easy; ski-in narrow red or short walk; shuttle outside","True ski-in/ski-out, 0 m, on the ski road (pick Premium/slope side)","~100 m walk to piste, by Tortollet lift"],
+    ["Nightlife","VT après incl. La Folie Douce (on-slope party); clubs; ~10 min to centre","Heart of VT — steps from bars & short ride to La Folie Douce; lively & noisy","Quiet, relaxed, cosy — calm evenings"],
+    ["Restaurants","On-site restaurant + Intersport & Sherpa supermarket on site","On-site Le Chaudron Magique (Savoyard/grill/pizza) + après bar","Good-value Les Menuires dining; bakery delivered to room"],
+    ["Amenities","Full spa: pool w/ view, hot tubs, saunas, steam, gym; heated ski locker","Basic 3★ — WiFi, balcony, ski store, linens incl. No pool/spa","Best-in-class CGH wellness: pool, jacuzzi, sauna, hammam, gym, billiards + massage/facials"],
+    ["Apartment feel","Spacious chalet style; big single units up to 16p","Compact & dated but good value; max 6p units","Spacious modern Savoyard wood; up to 8p (8p often full)"],
+    ["Keeps group together?","Yes — one 8/10/12p apartment","No — splits into 4p/6p flats","Partly — 6+6 or 6+4 (8p sold out)"],
+    ["Best for","Nightlife + altitude + snow-sure + staying together","Cheapest, most central, party crowd on a budget","Max luxury/spa, relaxed evenings, smooth 600 km roaming"],
+  ];
+
+  function fmtEur(n){ return "€" + Math.round(n).toLocaleString("en-US"); }
+  function fmtHuf(n){ return n.toLocaleString("en-US") + " Ft"; }
+  function perPerson(total,size){ return Math.round(total/size); }
+  function allInEur(total,size,flightHuf){ return Math.round(total/size + THREE_VALLEY_EXT - LOYALTY_MAX + flightHuf/HUF_PER_EUR); }
+
+  function enumerateCombos(caps, target){
+    const sorted = [...caps].sort((a,b)=>b-a); const out=[];
+    (function rec(idx, remaining, cur){
+      if(remaining===0){ out.push([...cur]); return; }
+      if(idx>=sorted.length) return;
+      rec(idx+1, remaining, cur);
+      if(sorted[idx]<=remaining){ cur.push(sorted[idx]); rec(idx, remaining-sorted[idx], cur); cur.pop(); }
+    })(0,target,[]);
+    return out;
+  }
+  function combosFor(accom, dateId, size){
+    const inv = INVENTORY[accom][dateId];
+    const caps = Object.keys(inv).map(Number);
+    if(caps.length===0) return [];
+    return enumerateCombos(caps, size).map(list=>{
+      const counts=new Map();
+      list.forEach(c=>counts.set(c,(counts.get(c)||0)+1));
+      const desc=[...counts.keys()].sort((a,b)=>b-a);
+      const detail=desc.map(c=>counts.get(c)+"× "+inv[c].label).join(" + ");
+      const pkgTotal=list.reduce((s,c)=>s+c*inv[c].pp,0);
+      return {detail, rooms:list.length, pkgTotal};
+    }).sort((a,b)=> a.rooms-b.rooms || a.pkgTotal-b.pkgTotal);
+  }
+
+  let state = { size: 12, dateId: "mar" };
+
+  function renderComparison(){
+    const tb = document.getElementById("cmp-body");
+    tb.innerHTML = COMPARISON.map(r=>"<tr>"+r.map((c,i)=>"<td>"+c+"</td>").join("")+"</tr>").join("");
+  }
+
+  function renderPills(){
+    const sp = document.getElementById("size-pills");
+    sp.innerHTML = SIZES.map(s=>`<span class="pill ${state.size===s?'active':''}" data-size="${s}">${s}</span>`).join("");
+    sp.querySelectorAll(".pill").forEach(el=>el.onclick=()=>{ state.size=+el.dataset.size; render(); });
+    const dp = document.getElementById("date-pills");
+    dp.innerHTML = Object.keys(DATES).map(d=>`<span class="pill ${state.dateId===d?'active':''}" data-date="${d}">${DATES[d].label}</span>`).join("");
+    dp.querySelectorAll(".pill").forEach(el=>el.onclick=()=>{ state.dateId=el.dataset.date; render(); });
+  }
+
+  function renderEstimator(){
+    const date = DATES[state.dateId];
+    document.getElementById("week-meta").textContent = `${date.range} · ${date.season} · flight ${fmtHuf(date.flightHuf)}/pp`;
+    document.getElementById("jan-warn").style.display = state.dateId==="jan" ? "block" : "none";
+
+    const host = document.getElementById("estimator");
+    host.innerHTML = ORDER.map(aid=>{
+      const a = ACCOMS[aid];
+      const combos = combosFor(aid, state.dateId, state.size);
+      if(combos.length===0){
+        return `<div class="card"><div class="hd">${a.name} ${a.stars} · ${a.resort} <span class="tag">Sold out</span></div>
+          <div class="bd"><p class="muted" style="margin:0;">No availability for a group of ${state.size} this week (residence/apartments sold out).</p></div></div>`;
+      }
+      const cheapest = Math.min(...combos.map(c=>c.pkgTotal));
+      const fewest = combos[0].rooms;
+      const bestAllIn = allInEur(combos[0].pkgTotal, state.size, date.flightHuf);
+      const rows = combos.map(c=>{
+        const allIn = allInEur(c.pkgTotal, state.size, date.flightHuf);
+        let tags="";
+        if(c.rooms===fewest) tags+=`<span class="tag together">Stay together</span> `;
+        if(c.pkgTotal===cheapest && combos.length>1) tags+=`<span class="tag cheap">Cheapest</span>`;
+        return `<tr class="${c.pkgTotal===cheapest?'best':''}">
+          <td>${c.detail}</td>
+          <td class="num">${c.rooms}</td>
+          <td class="num">${fmtEur(perPerson(c.pkgTotal,state.size))}</td>
+          <td class="num">${fmtEur(allIn)}</td>
+          <td class="num">${fmtEur(allIn*state.size)}</td>
+          <td>${tags}</td>
+        </tr>`;
+      }).join("");
+      return `<div class="card">
+        <div class="hd">${a.name} ${a.stars} · ${a.resort} <span class="sub">from ${fmtEur(bestAllIn)}/pp all-in</span></div>
+        <div class="bd flush"><table>
+          <thead><tr><th>Room combination</th><th class="num">Rooms</th><th class="num">Pkg €/pp</th><th class="num">All-in ≈ €/pp</th><th class="num">Group total ≈</th><th></th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table></div>
+      </div>`;
+    }).join("");
+  }
+
+  function render(){ renderPills(); renderEstimator(); }
+  renderComparison();
+  render();
+</script>
+</body>
+</html>
