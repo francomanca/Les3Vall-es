@@ -269,7 +269,7 @@
     Premium&gt;standard). Where the bigger variant is sold out (e.g. Balcons 10p in March), the next available one is used.
   </p>
   <div class="callout warn" id="jan-warn" style="margin-top:8px; display:none;">
-    On Jan 30, Les Clarines is fully sold out, the Balcons 4p and 12p apartments are gone, and the flight is
+    On Jan 30, the Balcons 4p and 12p apartments are gone, and the flight is
     <strong>19 500 Ft</strong> more expensive per person than March.
   </div>
 
@@ -290,14 +290,15 @@
         <li style="font-size:13.5px;color:var(--text-2);margin:6px 0;">• <strong>One apartment for the whole group</strong> (120 m², 12 people) — only Balcons offers true 8/10/12-person single units. Cheval Blanc maxes at 6p and Clarines' 8p is sold out, so both split you across separate flats. (Prefer to save? A Balcons 2× Óriási 6p split runs ≈ €942/pp — see the "Cheapest" tag.)</li>
         <li style="font-size:13.5px;color:var(--text-2);margin:6px 0;">• <strong>Highest resort (2 300 m)</strong> — snow-sure even for a mid-March week.</li>
         <li style="font-size:13.5px;color:var(--text-2);margin:6px 0;">• <strong>Ski-in/ski-out + spa + nightlife</strong> — pool/saunas/hot tubs on site, Intersport &amp; supermarket in the building, Val Thorens après on the doorstep.</li>
-        <li style="font-size:13.5px;color:var(--text-2);margin:6px 0;">• <strong>March beats January</strong> — cheaper flight (19 500 Ft less/pp), cheaper rooms, and Jan 30 has the 12-person unit + all of Clarines sold out anyway.</li>
+        <li style="font-size:13.5px;color:var(--text-2);margin:6px 0;">• <strong>March beats January</strong> — cheaper flight (19 500 Ft less/pp), cheaper rooms, and Jan 30 has the Balcons 12-person unit sold out.</li>
       </ul>
       <div class="callout" style="margin-top:14px;">
         <div class="ct">If wellness is the group's priority</div>
-        Switch to <strong>CGH Les Clarines ★★★★★ (Mar 13–20)</strong> — a 6+6 setup at ≈ €907/pp all-in. Best spa of the
-        three (indoor pool, jacuzzi, sauna, hammam, gym + massage/facials) and calm evenings — trade-off is two
-        apartments, 1 850 m, and no walk-home nightlife like La Folie Douce. Cheval Blanc ★★★ is the budget/party pick at
-        ≈ €877/pp, but small dated rooms split 6+6.
+        Switch to <strong>CGH Les Clarines ★★★★★ (Mar 13–20)</strong> — a 6+6 setup at ≈ €942/pp all-in (only Óriási 6p
+        left this week; 4p/8p sold out). Best spa of the three (indoor pool, jacuzzi, sauna, hammam, gym +
+        massage/facials) and calm evenings — trade-off is two apartments, 1 850 m, and no walk-home nightlife like La
+        Folie Douce. <strong>Le Coeur des Loges ★★★★</strong> is another Menuires ski-in option (see estimator). Cheval
+        Blanc ★★★ is the budget/party pick at ≈ €877/pp, but small dated rooms split 6+6.
       </div>
       <h3 style="margin-top:16px;">Open decisions to confirm with the group</h3>
       <ul style="list-style:none;padding:0;margin:0;">
@@ -309,7 +310,7 @@
   </div>
 
   <div class="footer">
-    Prices from travelex.si (3-Völgy accommodation &amp; flight pages, plane view). Package € prices already include the
+    Prices from travelex.si (3-Völgy accommodation &amp; flight pages, plane view), updated Mar 2026. Package € prices already include the
     early-booking discount, the local 6-day ski pass, 7 nights, airport transfer and luggage transport — flight and the
     €45 3-Vallées extension are separate. Flight fares are WizzAir dynamic pricing and will rise. Review data:
     Booking.com, Tripadvisor, hotel listings (July 2026). Currency ≈ 400 Ft/€.
@@ -333,16 +334,21 @@
       mar: {4:{label:"Premium 4p (27 m²)",pp:845},6:{label:"Premium 6p (33 m²)",pp:780}},
     },
     clarines: {
-      jan: {},
-      mar: {4:{label:"4p (35–40 m²)",pp:840},6:{label:"Óriási 6p (45–60 m²)",pp:810}},
+      jan: {6:{label:"Óriási 6p (45–60 m²)",pp:915},8:{label:"8p (75–80 m²)",pp:920}},
+      mar: {6:{label:"Óriási 6p (45–60 m²)",pp:845}},
+    },
+    coeur: {
+      jan: {4:{label:"4p (32–38 m²)",pp:940},6:{label:"Óriási 6p (47–55 m²)",pp:920},8:{label:"Terjedelmes 8p (58–65 m²)",pp:885},10:{label:"10p (76–83 m²)",pp:935}},
+      mar: {4:{label:"4p (32–38 m²)",pp:885},6:{label:"Óriási 6p (47–55 m²)",pp:865},8:{label:"Terjedelmes 8p (58–65 m²)",pp:835},10:{label:"10p (76–83 m²)",pp:880}},
     },
   };
   const ACCOMS = {
     balcons:{name:"Les Balcons de Val Thorens",stars:"★★★★",resort:"Val Thorens · 2 300 m"},
     cheval:{name:"Cheval Blanc",stars:"★★★",resort:"Val Thorens · 2 300 m"},
     clarines:{name:"CGH Les Clarines",stars:"★★★★★",resort:"Les Menuires · 1 850 m"},
+    coeur:{name:"Le Coeur des Loges",stars:"★★★★",resort:"Les Menuires · ski-in 10 m"},
   };
-  const ORDER = ["balcons","cheval","clarines"];
+  const ORDER = ["balcons","cheval","clarines","coeur"];
   const SIZES = [6,8,10,12,14];
 
   const COMPARISON = [
