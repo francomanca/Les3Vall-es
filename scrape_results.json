@@ -1,0 +1,799 @@
+{
+  "properties": [
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 1 - Le Hameau****",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól",
+      "extras_included": "benti medence, jacuzzi, fitneszterem, ágyneműhuzat, sítároló",
+      "sauna_paid_extra": true,
+      "prices": [
+        {
+          "week": "2027.01.02",
+          "pkg_pp": 460,
+          "empty_bed_pp": 185,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.16",
+          "pkg_pp": 490,
+          "empty_bed_pp": 205,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.23",
+          "pkg_pp": 525,
+          "empty_bed_pp": 225,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.30",
+          "pkg_pp": 545,
+          "empty_bed_pp": 215,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.06",
+          "pkg_pp": 535,
+          "empty_bed_pp": 225,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.13",
+          "pkg_pp": 510,
+          "empty_bed_pp": 210,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        }
+      ]
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 3 - Neige et Soleil****",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól",
+      "extras_included": "ágyneműhuzat, törölköző, masszázsmedence, szauna, gőzkabin, edzőterem, végtakarítás (kivéve konyha), sítároló, wifi",
+      "sauna_paid_extra": false,
+      "prices": [
+        {
+          "week": "2027.01.02",
+          "pkg_pp": 505,
+          "empty_bed_pp": 230,
+          "room_type": "6 x 6 fős"
+        },
+        {
+          "week": "2027.03.06",
+          "pkg_pp": 700,
+          "empty_bed_pp": 385,
+          "room_type": "6 x 6 fős"
+        }
+      ]
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 4 - Les Clarines****",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól",
+      "extras_included": "ágyneműhuzat, törölköző, wifi az apartmanban, medence, szauna és gőzfürdő, sítároló, végtakarítás (kivéve konyha)",
+      "sauna_paid_extra": false,
+      "prices": [
+        {
+          "week": "2027.01.02",
+          "pkg_pp": 540,
+          "empty_bed_pp": 260,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.23",
+          "pkg_pp": 625,
+          "empty_bed_pp": 320,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.30",
+          "pkg_pp": 690,
+          "empty_bed_pp": 355,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.06",
+          "pkg_pp": 685,
+          "empty_bed_pp": 365,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.13",
+          "pkg_pp": 635,
+          "empty_bed_pp": 320,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        }
+      ]
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 5 - Ours Blanc***",
+      "plane_dates": "2027. 01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól",
+      "extras_included": "ágyneműhuzat, törölköző, medence, végtakarítás (kivéve konyha), sítároló",
+      "sauna_paid_extra": true,
+      "prices": [
+        {
+          "week": "2027.01.16",
+          "pkg_pp": 540,
+          "empty_bed_pp": 245,
+          "room_type": "Ó: 6 x 6 fős: Óriás"
+        },
+        {
+          "week": "2027.01.23",
+          "pkg_pp": 620,
+          "empty_bed_pp": 305,
+          "room_type": "Ó: 6 x 6 fős: Óriás"
+        },
+        {
+          "week": "2027.01.30",
+          "pkg_pp": 650,
+          "empty_bed_pp": 310,
+          "room_type": "Ó: 6 x 6 fős: Óriás"
+        }
+      ]
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 9 - Alpeggio****",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól",
+      "extras_included": "ágyneműhuzat, törölköző, medence, szauna, jacuzzi, végtakarítás (kivéve konyha és ágynemű), sítároló, wifi",
+      "sauna_paid_extra": false,
+      "prices": [
+        {
+          "week": "2027.01.02",
+          "pkg_pp": 685,
+          "empty_bed_pp": 395,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.16",
+          "pkg_pp": 745,
+          "empty_bed_pp": 445,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.23",
+          "pkg_pp": 775,
+          "empty_bed_pp": 460,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.30",
+          "pkg_pp": 835,
+          "empty_bed_pp": 475,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.06",
+          "pkg_pp": 890,
+          "empty_bed_pp": 565,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.13",
+          "pkg_pp": 780,
+          "empty_bed_pp": 450,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        }
+      ]
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 1 - Ecrins d'Auris*** - Auris en Oisans",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól",
+      "extras_included": "benti medence, szauna, gőzfürdő, wifi az apartmanban, sítároló",
+      "sauna_paid_extra": false,
+      "prices": [
+        {
+          "week": "2027.01.02",
+          "pkg_pp": 435,
+          "empty_bed_pp": 140,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.16",
+          "pkg_pp": 455,
+          "empty_bed_pp": 155,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.23",
+          "pkg_pp": 485,
+          "empty_bed_pp": 185,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.30",
+          "pkg_pp": 505,
+          "empty_bed_pp": 190,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.06",
+          "pkg_pp": 450,
+          "empty_bed_pp": 170,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.13",
+          "pkg_pp": 410,
+          "empty_bed_pp": 105,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        }
+      ]
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 2 - Les Balcons d'Auréa**** - Auris en Oisans",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól",
+      "extras_included": "á gyneműhuzat, törölköző, végtakarítás (kivéve konyha), fitneszterem, fűtött benti medence, sítároló, wifi az apartmanban",
+      "sauna_paid_extra": true,
+      "prices": [
+        {
+          "week": "2027.01.02",
+          "pkg_pp": 450,
+          "empty_bed_pp": 145,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.16",
+          "pkg_pp": 465,
+          "empty_bed_pp": 165,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.23",
+          "pkg_pp": 485,
+          "empty_bed_pp": 175,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.01.30",
+          "pkg_pp": 520,
+          "empty_bed_pp": 200,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.06",
+          "pkg_pp": 465,
+          "empty_bed_pp": 180,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        },
+        {
+          "week": "2027.03.13",
+          "pkg_pp": 450,
+          "empty_bed_pp": 155,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        }
+      ]
+    },
+    {
+      "resort": "3 Vallées",
+      "name": "Szállás 1 - Balcons de Val Thorens****",
+      "plane_dates": "2027.03.13-tól",
+      "extras_included": "ágyneműhuzat, törölköző, wifi az apartmanban, medence, jacuzzi, gőzfürdő, szauna, edzőterem, sítároló, végtakarítás (kivéve konyha)",
+      "sauna_paid_extra": false,
+      "prices": [
+        {
+          "week": "2027.03.13",
+          "pkg_pp": 815,
+          "empty_bed_pp": 345,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        }
+      ]
+    },
+    {
+      "resort": "3 Vallées",
+      "name": "Szállás 3 - Clarines***** - Menuires",
+      "plane_dates": "2027.03.13-tól A szállás árai előfoglalási kedvezményt tartalmaznak október 30-ig. Utána jelentős drágulás várható.",
+      "extras_included": "ágyneműhuzat, törölköző, 1 ingyenes wifi kapcsolat az apartmanban, medence, jacuzzi, gőzfürdő, szauna, edzőterem, sítároló, végtakarítás (kivéve konyha)",
+      "sauna_paid_extra": false,
+      "prices": [
+        {
+          "week": "2027.03.13",
+          "pkg_pp": 805,
+          "empty_bed_pp": 310,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        }
+      ]
+    },
+    {
+      "resort": "3 Vallées",
+      "name": "Szállás 4 - Le Coeur des Loges**** - Menuires",
+      "plane_dates": "2027.03.13-tól",
+      "extras_included": "ágyneműhuzat, törölköző, medence, sítároló bakancsmelegítővel, végtakarítás (kivéve konyha)",
+      "sauna_paid_extra": false,
+      "prices": [
+        {
+          "week": "2027.03.13",
+          "pkg_pp": 825,
+          "empty_bed_pp": 335,
+          "room_type": "Ó: 6 x 6 fős: Óriási"
+        }
+      ]
+    }
+  ],
+  "ranked": [
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 1 - Ecrins d'Auris*** - Auris en Oisans",
+      "week": "2027.03.13",
+      "pkg_pp": 410,
+      "empty_bed_pp": 105,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 62459,
+      "all_in_eur": 566,
+      "sauna_paid_extra": false,
+      "extras_included": "benti medence, szauna, gőzfürdő, wifi az apartmanban, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 1 - Ecrins d'Auris*** - Auris en Oisans",
+      "week": "2027.01.02",
+      "pkg_pp": 435,
+      "empty_bed_pp": 140,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 55580,
+      "all_in_eur": 574,
+      "sauna_paid_extra": false,
+      "extras_included": "benti medence, szauna, gőzfürdő, wifi az apartmanban, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 2 - Les Balcons d'Auréa**** - Auris en Oisans",
+      "week": "2027.01.02",
+      "pkg_pp": 450,
+      "empty_bed_pp": 145,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 55580,
+      "all_in_eur": 589,
+      "sauna_paid_extra": true,
+      "extras_included": "á gyneműhuzat, törölköző, végtakarítás (kivéve konyha), fitneszterem, fűtött benti medence, sítároló, wifi az apartmanban",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 1 - Ecrins d'Auris*** - Auris en Oisans",
+      "week": "2027.01.16",
+      "pkg_pp": 455,
+      "empty_bed_pp": 155,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 57480,
+      "all_in_eur": 599,
+      "sauna_paid_extra": false,
+      "extras_included": "benti medence, szauna, gőzfürdő, wifi az apartmanban, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 1 - Le Hameau****",
+      "week": "2027.01.02",
+      "pkg_pp": 460,
+      "empty_bed_pp": 185,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 55580,
+      "all_in_eur": 599,
+      "sauna_paid_extra": true,
+      "extras_included": "benti medence, jacuzzi, fitneszterem, ágyneműhuzat, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 2 - Les Balcons d'Auréa**** - Auris en Oisans",
+      "week": "2027.03.13",
+      "pkg_pp": 450,
+      "empty_bed_pp": 155,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 62459,
+      "all_in_eur": 606,
+      "sauna_paid_extra": true,
+      "extras_included": "á gyneműhuzat, törölköző, végtakarítás (kivéve konyha), fitneszterem, fűtött benti medence, sítároló, wifi az apartmanban",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 2 - Les Balcons d'Auréa**** - Auris en Oisans",
+      "week": "2027.01.16",
+      "pkg_pp": 465,
+      "empty_bed_pp": 165,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 57480,
+      "all_in_eur": 609,
+      "sauna_paid_extra": true,
+      "extras_included": "á gyneműhuzat, törölköző, végtakarítás (kivéve konyha), fitneszterem, fűtött benti medence, sítároló, wifi az apartmanban",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 1 - Ecrins d'Auris*** - Auris en Oisans",
+      "week": "2027.03.06",
+      "pkg_pp": 450,
+      "empty_bed_pp": 170,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 66259,
+      "all_in_eur": 616,
+      "sauna_paid_extra": false,
+      "extras_included": "benti medence, szauna, gőzfürdő, wifi az apartmanban, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 2 - Les Balcons d'Auréa**** - Auris en Oisans",
+      "week": "2027.03.06",
+      "pkg_pp": 465,
+      "empty_bed_pp": 180,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 66259,
+      "all_in_eur": 631,
+      "sauna_paid_extra": true,
+      "extras_included": "á gyneműhuzat, törölköző, végtakarítás (kivéve konyha), fitneszterem, fűtött benti medence, sítároló, wifi az apartmanban",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 1 - Le Hameau****",
+      "week": "2027.01.16",
+      "pkg_pp": 490,
+      "empty_bed_pp": 205,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 57480,
+      "all_in_eur": 634,
+      "sauna_paid_extra": true,
+      "extras_included": "benti medence, jacuzzi, fitneszterem, ágyneműhuzat, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 3 - Neige et Soleil****",
+      "week": "2027.01.02",
+      "pkg_pp": 505,
+      "empty_bed_pp": 230,
+      "room_type": "6 x 6 fős",
+      "flight_huf": 55580,
+      "all_in_eur": 644,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, masszázsmedence, szauna, gőzkabin, edzőterem, végtakarítás (kivéve konyha), sítároló, wifi",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 1 - Le Hameau****",
+      "week": "2027.03.13",
+      "pkg_pp": 510,
+      "empty_bed_pp": 210,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 62459,
+      "all_in_eur": 666,
+      "sauna_paid_extra": true,
+      "extras_included": "benti medence, jacuzzi, fitneszterem, ágyneműhuzat, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 4 - Les Clarines****",
+      "week": "2027.01.02",
+      "pkg_pp": 540,
+      "empty_bed_pp": 260,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 55580,
+      "all_in_eur": 679,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, wifi az apartmanban, medence, szauna és gőzfürdő, sítároló, végtakarítás (kivéve konyha)",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 5 - Ours Blanc***",
+      "week": "2027.01.16",
+      "pkg_pp": 540,
+      "empty_bed_pp": 245,
+      "room_type": "Ó: 6 x 6 fős: Óriás",
+      "flight_huf": 57480,
+      "all_in_eur": 684,
+      "sauna_paid_extra": true,
+      "extras_included": "ágyneműhuzat, törölköző, medence, végtakarítás (kivéve konyha), sítároló",
+      "plane_dates": "2027. 01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 1 - Le Hameau****",
+      "week": "2027.03.06",
+      "pkg_pp": 535,
+      "empty_bed_pp": 225,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 66259,
+      "all_in_eur": 701,
+      "sauna_paid_extra": true,
+      "extras_included": "benti medence, jacuzzi, fitneszterem, ágyneműhuzat, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 1 - Ecrins d'Auris*** - Auris en Oisans",
+      "week": "2027.01.23",
+      "pkg_pp": 485,
+      "empty_bed_pp": 185,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 106559,
+      "all_in_eur": 751,
+      "sauna_paid_extra": false,
+      "extras_included": "benti medence, szauna, gőzfürdő, wifi az apartmanban, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 2 - Les Balcons d'Auréa**** - Auris en Oisans",
+      "week": "2027.01.23",
+      "pkg_pp": 485,
+      "empty_bed_pp": 175,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 106559,
+      "all_in_eur": 751,
+      "sauna_paid_extra": true,
+      "extras_included": "á gyneműhuzat, törölköző, végtakarítás (kivéve konyha), fitneszterem, fűtött benti medence, sítároló, wifi az apartmanban",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 1 - Le Hameau****",
+      "week": "2027.01.23",
+      "pkg_pp": 525,
+      "empty_bed_pp": 225,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 106559,
+      "all_in_eur": 791,
+      "sauna_paid_extra": true,
+      "extras_included": "benti medence, jacuzzi, fitneszterem, ágyneműhuzat, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 4 - Les Clarines****",
+      "week": "2027.03.13",
+      "pkg_pp": 635,
+      "empty_bed_pp": 320,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 62459,
+      "all_in_eur": 791,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, wifi az apartmanban, medence, szauna és gőzfürdő, sítároló, végtakarítás (kivéve konyha)",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 1 - Ecrins d'Auris*** - Auris en Oisans",
+      "week": "2027.01.30",
+      "pkg_pp": 505,
+      "empty_bed_pp": 190,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 114963,
+      "all_in_eur": 792,
+      "sauna_paid_extra": false,
+      "extras_included": "benti medence, szauna, gőzfürdő, wifi az apartmanban, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Alpe d'Huez (Auris)",
+      "name": "Szállás 2 - Les Balcons d'Auréa**** - Auris en Oisans",
+      "week": "2027.01.30",
+      "pkg_pp": 520,
+      "empty_bed_pp": 200,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 114963,
+      "all_in_eur": 807,
+      "sauna_paid_extra": true,
+      "extras_included": "á gyneműhuzat, törölköző, végtakarítás (kivéve konyha), fitneszterem, fűtött benti medence, sítároló, wifi az apartmanban",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.16-tól, 01.30-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 9 - Alpeggio****",
+      "week": "2027.01.02",
+      "pkg_pp": 685,
+      "empty_bed_pp": 395,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 55580,
+      "all_in_eur": 824,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, medence, szauna, jacuzzi, végtakarítás (kivéve konyha és ágynemű), sítároló, wifi",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 1 - Le Hameau****",
+      "week": "2027.01.30",
+      "pkg_pp": 545,
+      "empty_bed_pp": 215,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 114963,
+      "all_in_eur": 832,
+      "sauna_paid_extra": true,
+      "extras_included": "benti medence, jacuzzi, fitneszterem, ágyneműhuzat, sítároló",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.02-től, 01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 4 - Les Clarines****",
+      "week": "2027.03.06",
+      "pkg_pp": 685,
+      "empty_bed_pp": 365,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 66259,
+      "all_in_eur": 851,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, wifi az apartmanban, medence, szauna és gőzfürdő, sítároló, végtakarítás (kivéve konyha)",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 3 - Neige et Soleil****",
+      "week": "2027.03.06",
+      "pkg_pp": 700,
+      "empty_bed_pp": 385,
+      "room_type": "6 x 6 fős",
+      "flight_huf": 66259,
+      "all_in_eur": 866,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, masszázsmedence, szauna, gőzkabin, edzőterem, végtakarítás (kivéve konyha), sítároló, wifi",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 5 - Ours Blanc***",
+      "week": "2027.01.23",
+      "pkg_pp": 620,
+      "empty_bed_pp": 305,
+      "room_type": "Ó: 6 x 6 fős: Óriás",
+      "flight_huf": 106559,
+      "all_in_eur": 886,
+      "sauna_paid_extra": true,
+      "extras_included": "ágyneműhuzat, törölköző, medence, végtakarítás (kivéve konyha), sítároló",
+      "plane_dates": "2027. 01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 9 - Alpeggio****",
+      "week": "2027.01.16",
+      "pkg_pp": 745,
+      "empty_bed_pp": 445,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 57480,
+      "all_in_eur": 889,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, medence, szauna, jacuzzi, végtakarítás (kivéve konyha és ágynemű), sítároló, wifi",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 4 - Les Clarines****",
+      "week": "2027.01.23",
+      "pkg_pp": 625,
+      "empty_bed_pp": 320,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 106559,
+      "all_in_eur": 891,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, wifi az apartmanban, medence, szauna és gőzfürdő, sítároló, végtakarítás (kivéve konyha)",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 9 - Alpeggio****",
+      "week": "2027.03.13",
+      "pkg_pp": 780,
+      "empty_bed_pp": 450,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 62459,
+      "all_in_eur": 936,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, medence, szauna, jacuzzi, végtakarítás (kivéve konyha és ágynemű), sítároló, wifi",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 5 - Ours Blanc***",
+      "week": "2027.01.30",
+      "pkg_pp": 650,
+      "empty_bed_pp": 310,
+      "room_type": "Ó: 6 x 6 fős: Óriás",
+      "flight_huf": 114963,
+      "all_in_eur": 937,
+      "sauna_paid_extra": true,
+      "extras_included": "ágyneműhuzat, törölköző, medence, végtakarítás (kivéve konyha), sítároló",
+      "plane_dates": "2027. 01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "3 Vallées",
+      "name": "Szállás 3 - Clarines***** - Menuires",
+      "week": "2027.03.13",
+      "pkg_pp": 805,
+      "empty_bed_pp": 310,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 62459,
+      "all_in_eur": 961,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, 1 ingyenes wifi kapcsolat az apartmanban, medence, jacuzzi, gőzfürdő, szauna, edzőterem, sítároló, végtakarítás (kivéve konyha)",
+      "plane_dates": "2027.03.13-tól A szállás árai előfoglalási kedvezményt tartalmaznak október 30-ig. Utána jelentős drágulás várható."
+    },
+    {
+      "resort": "3 Vallées",
+      "name": "Szállás 1 - Balcons de Val Thorens****",
+      "week": "2027.03.13",
+      "pkg_pp": 815,
+      "empty_bed_pp": 345,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 62459,
+      "all_in_eur": 971,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, wifi az apartmanban, medence, jacuzzi, gőzfürdő, szauna, edzőterem, sítároló, végtakarítás (kivéve konyha)",
+      "plane_dates": "2027.03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 4 - Les Clarines****",
+      "week": "2027.01.30",
+      "pkg_pp": 690,
+      "empty_bed_pp": 355,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 114963,
+      "all_in_eur": 977,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, wifi az apartmanban, medence, szauna és gőzfürdő, sítároló, végtakarítás (kivéve konyha)",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "3 Vallées",
+      "name": "Szállás 4 - Le Coeur des Loges**** - Menuires",
+      "week": "2027.03.13",
+      "pkg_pp": 825,
+      "empty_bed_pp": 335,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 62459,
+      "all_in_eur": 981,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, medence, sítároló bakancsmelegítővel, végtakarítás (kivéve konyha)",
+      "plane_dates": "2027.03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 9 - Alpeggio****",
+      "week": "2027.01.23",
+      "pkg_pp": 775,
+      "empty_bed_pp": 460,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 106559,
+      "all_in_eur": 1041,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, medence, szauna, jacuzzi, végtakarítás (kivéve konyha és ágynemű), sítároló, wifi",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 9 - Alpeggio****",
+      "week": "2027.03.06",
+      "pkg_pp": 890,
+      "empty_bed_pp": 565,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 66259,
+      "all_in_eur": 1056,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, medence, szauna, jacuzzi, végtakarítás (kivéve konyha és ágynemű), sítároló, wifi",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    },
+    {
+      "resort": "Les 2 Alpes",
+      "name": "Szállás 9 - Alpeggio****",
+      "week": "2027.01.30",
+      "pkg_pp": 835,
+      "empty_bed_pp": 475,
+      "room_type": "Ó: 6 x 6 fős: Óriási",
+      "flight_huf": 114963,
+      "all_in_eur": 1122,
+      "sauna_paid_extra": false,
+      "extras_included": "ágyneműhuzat, törölköző, medence, szauna, jacuzzi, végtakarítás (kivéve konyha és ágynemű), sítároló, wifi",
+      "plane_dates": "2027.01.02-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól Comfort+ busszal foglalható: 2027.01.09-től, 01.16-tól, 01.23-tól, 01.30-tól, 03.06-tól, 03.13-tól"
+    }
+  ]
+}
