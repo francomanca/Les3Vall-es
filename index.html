@@ -99,9 +99,14 @@
   tbody tr:last-child td { border-bottom:0; }
   td.num, th.num { text-align:right; white-space:nowrap; font-variant-numeric: tabular-nums; }
   tr.best td { background: rgba(63,185,80,0.06); }
+  tr.hl-price td { background: rgba(63,185,80,0.10); }
+  tr.hl-time td { background: rgba(76,141,255,0.10); }
+  tr.hl-plus td { background: rgba(210,153,34,0.10); }
   .tbl-frame { border:1px solid var(--stroke); border-radius: var(--radius); overflow:auto; }
   .cmp td:first-child { color: var(--text-3); font-weight:600; white-space:nowrap; }
   .cmp tbody tr:nth-child(even) td { background: rgba(255,255,255,0.015); }
+  .cmp.plans td { white-space:normal; }
+  .cmp.plans td:first-child { white-space:nowrap; }
 
   .strike { color: var(--text-3); text-decoration: line-through; }
   .footer { margin-top:36px; color:var(--text-3); font-size:12px; }
@@ -206,6 +211,140 @@
     <div class="ct">Only two flight weeks reach the 3 Vallées</div>
     By plane, Travelex only serves the 3 Vallées on <strong>Jan 30 – Feb 6</strong> and <strong>Mar 13 – 20</strong>.
     All other Torino weeks go to other resorts, so these are your only two options.
+  </div>
+
+  <!-- PLANS A / B / C -->
+  <h2>Three ways in · 13–20 March</h2>
+  <p class="muted" style="margin-top:2px;">
+    Slice of <strong>4 people / 1 car</strong>. Live fares 14 Oct 2026, 400 Ft/€.
+    Plan B hotel is Booking.com 12–13 Mar, 4 adults, 2 rooms, Genius not applied.
+    Do not buy Friday Ryanair until Travelex confirms you can join the Saturday ~17:00 bus.
+  </p>
+  <div class="grid g3" style="margin-top:12px;">
+    <div class="stat"><div class="v green">50 800 Ft</div><div class="l">Plan B / person (cheapest)</div></div>
+    <div class="stat"><div class="v blue">111 400 Ft</div><div class="l">Plan A / person (official bus)</div></div>
+    <div class="stat"><div class="v">59 200 Ft</div><div class="l">Plan C / person (4 in the car)</div></div>
+  </div>
+  <div class="tbl-frame" style="margin-top:14px;">
+    <table class="cmp plans">
+      <thead><tr>
+        <th></th>
+        <th>A · Wizz Sat + Ryanair back</th>
+        <th>B · Ryanair Fri + overnight</th>
+        <th>C · Drive / wait</th>
+      </tr></thead>
+      <tbody>
+        <tr class="hl-price">
+          <td>Price / person</td>
+          <td><strong>111 400 Ft</strong> (~€278)<br>Wizz 88 190 + Ryanair back ~23 200</td>
+          <td><strong>50 800 Ft</strong> (~€127)<br>Ryanair 11 943 + back ~23 200 + city ~3 200<br><strong>Hotel Cascina Fossata</strong> (Booking.com, 8.7, 2× twin) <strong>€125 / 4 = €31 · 12 500 Ft/pp</strong></td>
+          <td><strong>59 200 Ft</strong> (~€148)<br>Fuel + cheapest HU/SI/IT/FR tolls, split 4 ways</td>
+        </tr>
+        <tr class="hl-price">
+          <td>Price for 4</td>
+          <td class="num">445 500 Ft</td>
+          <td class="num">203 400 Ft</td>
+          <td class="num">236 700 Ft (one car)</td>
+        </tr>
+        <tr class="hl-time">
+          <td>Time</td>
+          <td><strong>Leave BUD Sat 13 · 14:10</strong> W6 2349 (be at the airport ~12:10)<br>TRN 16:05 → bus ~17:00 → resort ~21:00<br>Homebound: resort bus 09:30, <strong>TRN 16:45</strong> FR 1619 → BUD 18:35</td>
+          <td><strong>Leave BUD Fri 12 · 20:25</strong> FR 1618 (airport ~18:25) → TRN 22:15, hotel ~23:00<br>Sat 13: city until 15:30, <strong>TRN bus ~17:00</strong> → resort ~21:00<br>Homebound same as A: bus 09:30, <strong>TRN 16:45</strong> → BUD 18:35</td>
+          <td><strong>Leave Budapest Sat 13 · 04:30</strong> → Val Thorens ~21:00 (~16.5 h with pee, swaps, lunch, chains)<br>Homebound Sat 20: leave resort ~05:00 to be home ~21:00<br>Fréjus must be on Sat 13 so the return ticket still covers Sat 20</td>
+        </tr>
+        <tr class="hl-plus">
+          <td>Extra benefit</td>
+          <td>Official pickup, organiser at TRN, no hotel, luggage already on the Travelex truck.</td>
+          <td>~60k Ft/pp cheaper than A.<br><strong>Sat 13 flow:</strong> 09:00 Museo Egizio → Piazza Castello / Palazzo Reale courtyard → Mole Antonelliana from outside → lunch Via Lagrange / Quadrilatero ~13:00 → Porta Susa 15:30 SADEM → TRN 17:00 bus.</td>
+          <td>No Wizz seat lottery. Skis/food in the car. Can wait if a cheaper plane appears, then switch.</td>
+        </tr>
+        <tr>
+          <td>Catch</td>
+          <td>Wizz is 88k Ft and can sell out. Only this Saturday matches the bus.</td>
+          <td>Travelex has not confirmed Friday overnight + Saturday bus. Do not buy FR 1618 until they say yes.</td>
+          <td>14 h Alps in March. Rest of a 10–12 group still flies unless more cars. Fréjus return dies 23:59 on the 7th day after issue.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="margin-top:22px;font-size:15px;">Plan B · Torino night (Booking.com 12–13 Mar)</h3>
+  <p class="muted">4 adults, 2 rooms, EUR. Rating and twin beds ranked above location.</p>
+  <div class="grid g2" style="margin-top:10px;">
+    <div class="card">
+      <div class="hd">Pick · Hotel Cascina Fossata &amp; Residence <span class="sub">8.7 · €125</span></div>
+      <div class="bd">
+        <p style="margin:0;color:var(--text);">Fabulous 8.7 from 4,063 reviews. Two Double or Twin rooms, <strong>€125</strong> for the night (~12 500 Ft/pp).</p>
+        <p class="muted" style="margin-top:6px;">~3.5 km from the centre — tram/bus in the morning. Best score-to-price with real twin rooms.</p>
+        <p class="muted">Centre walk, worse value: Starhotels Majestic 8.7 / 5,112 reviews, location 9.6, 2× Classic Double or Twin, €228.</p>
+        <p class="muted">Skip the city, sleep by TRN: DOMUS Hotel 9.3 / 271 reviews, Twin/single beds, €195, 1.9 km from the airport.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="hd">Saturday 13 before the 17:00 bus</div>
+      <div class="bd">
+        <p style="margin:0;color:var(--text);">Checkout ~11:00. Morning slot at the <strong>Egyptian Museum</strong> (Museo Egizio) — the one worth paying for.</p>
+        <p class="muted" style="margin-top:6px;">Then Piazza Castello / Palazzo Reale courtyard, Mole Antonelliana from outside (the cinema museum eats the whole day).</p>
+        <p class="muted">Lunch in the historic centre (Via Lagrange / Quadrilatero). Leave <strong>Porta Susa by ~15:30</strong> on SADEM (~45 min) so you are at TRN with margin for 17:00 pickup.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="margin-top:22px;font-size:15px;">Plan C · Budapest → 3 Vallées by car</h3>
+  <p class="muted">Cheapest legal motorway products on HU–SI–IT–FR. Petrol filled in Hungary. Not included: parking, tyres, chains, wear — you already have the car.</p>
+  <div class="tbl-frame" style="margin-top:8px;">
+    <table class="cmp">
+      <thead><tr>
+        <th>Item</th><th>Cheapest product</th><th class="num">Round trip</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>Hungary</td>
+          <td>D1 10-day e-matrica (covers 12–21 if started 12 Mar)</td>
+          <td class="num">6 900 Ft</td>
+        </tr>
+        <tr>
+          <td>Slovenia</td>
+          <td>2A weekly €16 / 7 days. Fri–Sat span needs two weeklies or one monthly — same €32</td>
+          <td class="num">€32</td>
+        </tr>
+        <tr>
+          <td>Italy A4 Gorizia → Torino</td>
+          <td>Class A, UnipolMove €47.30 each way</td>
+          <td class="num">€94.60</td>
+        </tr>
+        <tr>
+          <td>Italy A32 to Fréjus</td>
+          <td>Avigliana + Salbertrand class A</td>
+          <td class="num">€26.00</td>
+        </tr>
+        <tr class="hl-plus">
+          <td>Fréjus tunnel</td>
+          <td>French-side class 1 return €69.20 (IT side is €70.40). Valid until 23:59 of the 7th day after issue — buy on Sat 13</td>
+          <td class="num">€69.20</td>
+        </tr>
+        <tr>
+          <td>France A43</td>
+          <td>Modane ↔ Aiton class 1 €10.20 (from 1 Feb 2026), then RN90 to Les Menuires (no extra péage)</td>
+          <td class="num">€20.40</td>
+        </tr>
+        <tr class="hl-price">
+          <td>Petrol</td>
+          <td>~2 760 km · 7.5 l/100 km loaded · HU 95 at 642 Ft/l (fill before the border)</td>
+          <td class="num">132 900 Ft</td>
+        </tr>
+        <tr class="best">
+          <td>Car total</td>
+          <td>Tolls ~103 800 Ft + petrol. Split 4 ways ≈ 59 200 Ft/pp</td>
+          <td class="num"><strong>236 700 Ft</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout warn" style="margin-top:14px;">
+    <div class="ct">Fréjus return trap</div>
+    Two one-ways are €111. The €69.20 return only works if you enter the tunnel on Saturday 13 and come back Saturday 20.
+    Tunnel on Friday 12 and the ticket dies Friday 19 — sleep in Italy Friday night, or pay two singles.
   </div>
 
   <!-- DISCOUNTS -->
